@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    position: relative;
+    background-color: darkslategray;
+    height: 70px;
+    width: 100%;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.342);
+}
+
+#img{
+    text-align: center;
+    
+}
+img{
+    width: 320px;
+    padding: 5px;
+}
+main{
+    width: 700px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#delete p{
+    margin: 0;
+   
+}
+#delete{
+    margin-left: 10px;
+    background-color: red;
+    color: white;
+    border: 0px;
+    border-radius: 3px;
+    padding: 3px;
+}
+#delete:hover{
+    background-color: darkred;
+}
+#edit{
+    margin-left: 10px;
+    background-color: rgb(42, 42, 224);
+    color: white;
+    border: 0px;
+    border-radius: 3px;
+    padding: 3px;
+    display: inline-block;
+}
+#edit p{
+    display: inline-block;
+    margin: 0;
+}
+form{
+    display: inline;
+}
