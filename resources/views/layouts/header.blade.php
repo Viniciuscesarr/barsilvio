@@ -12,5 +12,6 @@
         @yield('content')
         <header>
             <div id="img"><a href="/"><img src="/img/logo-bar2.png" alt="Logo Bar"></a></div>
+            
         </header>  
     </body>
